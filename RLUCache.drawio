@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:53:13.950Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="xt_UW4bsEkiWvVdZ3pJO" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T02:55:34.334Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WoB0LJixr5oSgJ-8d5-g" version="16.4.11" type="github">
   <diagram id="jQrOPHSQlCrRj25DtOaN" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,14 +31,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-10" value="pre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KZvTcLUDpUq6Z3vSpvz5-9">
+          <mxGeometry x="-0.3172" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-2" value="head" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZvTcLUDpUq6Z3vSpvz5-3" target="KZvTcLUDpUq6Z3vSpvz5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-11" value="next" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KZvTcLUDpUq6Z3vSpvz5-8">
+          <mxGeometry x="-0.1448" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-3" value="tail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.408;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="KZvTcLUDpUq6Z3vSpvz5-12" target="KZvTcLUDpUq6Z3vSpvz5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-12" value="&lt;span style=&quot;color: rgb(92 , 99 , 112) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;dummy节点是一个冗余节点，dummy的next是链表的第一个节点，dummy的pre是链表的最后一个节点&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
