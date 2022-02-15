@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T02:13:53.953Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="zGhChTLkkQJs7AtyyKTg" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T02:14:57.245Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="L2Fvdal_4ClgpYLumq-9" version="16.4.11" type="github">
   <diagram id="jQrOPHSQlCrRj25DtOaN" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-93" value="dummy&lt;br&gt;key=0,value=0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="434" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=18;fontColor=#FF3333;" edge="1" source="KZvTcLUDpUq6Z3vSpvz5-100" target="KZvTcLUDpUq6Z3vSpvz5-104" parent="1">
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-99" value="pre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" source="KZvTcLUDpUq6Z3vSpvz5-100" target="KZvTcLUDpUq6Z3vSpvz5-104" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="194" y="1825" />
@@ -56,7 +56,7 @@
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-102" value="&lt;span style=&quot;font-family: &amp;quot;source code pro&amp;quot;, &amp;quot;dejavu sans mono&amp;quot;, &amp;quot;ubuntu mono&amp;quot;, &amp;quot;anonymous pro&amp;quot;, &amp;quot;droid sans mono&amp;quot;, menlo, monaco, consolas, inconsolata, courier, &amp;quot;pingfang sc&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, sans-serif; font-size: 14px; font-style: italic; background-color: rgb(255, 255, 255);&quot;&gt;dummy节点是一个冗余节点，dummy的next是链表的第一个节点，dummy的pre是链表的最后一个节点&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="504" y="1580" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;fontColor=#000000;" edge="1" source="KZvTcLUDpUq6Z3vSpvz5-104" target="KZvTcLUDpUq6Z3vSpvz5-100" parent="1">
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-103" value="next" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" source="KZvTcLUDpUq6Z3vSpvz5-104" target="KZvTcLUDpUq6Z3vSpvz5-100" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-104" value="node&lt;br&gt;key=1,value=1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
