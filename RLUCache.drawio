@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T02:14:57.245Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="L2Fvdal_4ClgpYLumq-9" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T02:19:35.532Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ESCMGwNLkfTZKcj2BG2l" version="16.4.11" type="github">
   <diagram id="jQrOPHSQlCrRj25DtOaN" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -677,6 +677,24 @@
         </mxCell>
         <mxCell id="KZvTcLUDpUq6Z3vSpvz5-289" value="&lt;h1&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;添加第一个元素&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;dummy的前指针和后指针都指向新添加的元素。新添加的元素。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="620" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-303" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#000000;strokeColor=#0000CC;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="465" as="sourcePoint" />
+            <mxPoint x="630" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-304" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#000000;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="430" as="sourcePoint" />
+            <mxPoint x="630" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-305" value="前指针 pre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="635" y="416" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZvTcLUDpUq6Z3vSpvz5-306" value="后指针 next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="450" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
